@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'FuturaCondensedMedium';
+  src: url("../fonts/FuturaCondensedMedium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaMediumItalic';
+  src: url("../fonts/FuturaMediumItalic.ttf") format('truetype');
+}
+
+html, body {
+  height: 100%;
+}
+
+body,
+h1,
+h2{
+  margin: 0;
+}
+
+h1 {
+  font-family: 'FuturaCondensedMedium', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'FuturaMediumItalic', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
